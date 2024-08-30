@@ -1,0 +1,185 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.wrapper, .Portafolio{
+    width: 100vw;
+    color: rgb(247, 245, 248);
+    background-color: #191c32;
+    padding: 1em;
+}
+
+.navbar{
+    padding: 10px 20px;
+    width: 100%;
+    top: 0;
+    
+}
+
+.brand{
+    margin-top: -10px;
+}
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,5fr);
+    margin-top: 60px;
+}
+
+h1{
+    color: blueviolet;
+    font-size: 3em;
+}
+
+span{
+    color: aqua;
+}
+
+.download-cv{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);  
+}
+
+.download-cv:hover{
+    background-color: aliceblue;
+    box-shadow: none;
+}
+
+.main img{
+    width: 350px;
+    border: 7px solid;
+    height: 400x;
+    margin-left: 100px;
+    border-radius: 10px;
+    color: #eff0f3;
+      
+}
+
+.nav-link:hover{
+    background-color: aqua !important;
+    color: #191c32;
+    
+    border-radius: 20px;
+    transition: ease-in 0.70s;
+    
+}
+
+.nav-link.active, .nav-link{
+    color: rgb(48, 95, 139);
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+    background-color: #191c32;
+}
+
+.about img{
+    width: 50vw;
+    border-color: aliceblue;
+
+}
+
+.about-info{
+    grid-column: 2/10;
+    padding: 3em;
+    background-color: #191c32;  
+}
+
+.about-info h2{
+    font-size: 2em;
+    color: #f8f8fc;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: rgb(255, 127, 197);
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+.about p{
+    color: white;
+    margin-bottom: 1em;
+}
+
+
+.img-carrusel{
+    height: 450px;
+}
+
+.form-bg{
+    background-color: #191c32;
+    color: #eff0f3;
+}
+
+.site-footer {
+    background-color: #191c32;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; /* Espacio entre las secciones */
+    padding: 20px;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+}
+
+.footer-section {
+    flex: 1; /* Hace que cada sección ocupe el mismo espacio */
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-legal {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme header, 
+.dark-theme footer {
+    background-color: #444;
+}
+
+.dark-theme button {
+    background-color: #222;
+    color: #fff;
+}
